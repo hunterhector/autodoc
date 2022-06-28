@@ -182,7 +182,7 @@ def scan_sources(source_dirs: List[str], strip_empty_line: bool) -> Dict[str, st
             except UnicodeDecodeError:
                 logging.info("Ignoring non-text file %s", fn)
             except UnsupportedError:
-                logging.info("Ignoring supported file %s of type %s", fn, mime_type)
+                logging.info("Ignoring Unsupported file %s of type %s", fn, mime_type)
 
     return marker_mapping
 
