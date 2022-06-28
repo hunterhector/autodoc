@@ -23,6 +23,8 @@ source code.
 python code_block.py [markdown input] [markdown out] [source code]
 ```
 
+![image](https://raw.githubusercontent.com/hunterhector/autodoc/main/autodoc.gif)
+
 The output directory will be the directory with "_out" appending to 
 the input directory.
 
