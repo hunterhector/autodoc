@@ -37,10 +37,11 @@ python code_block.py markdown source
 ## Assumptions
  - The source files should have correct extension so that the MIME
     types can be determined.
+      * We will use # (python/shell comments) for unknown types
  - Have https://github.com/karolswdev/autodocs-markdown-docker docker
     ready.
- - Markdown output directory need to be in the same level/structure of the
+ - Output directory will be produced in the same level/structure of the
     input (i.e. from ./input/ to ./output/, not ./input/ to ./some/output/)
  - Rely on certain string pattern to do the replacement (such as `&`).
- - Comment tags should be simple ascii names (no special characters).
+ - Comment tags should be simple ascii names (no special characters, spaces, underscores).
  - Comment tags cannot be nested.
