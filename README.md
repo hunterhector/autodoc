@@ -23,8 +23,6 @@ source code.
 python code_block.py [markdown input] [markdown out] [source code]
 ```
 
-![image](https://raw.githubusercontent.com/hunterhector/autodoc/main/autodoc.gif)
-
 The output directory will be the directory with "_out" appending to 
 the input directory.
 
@@ -32,6 +30,9 @@ Try the example markdown files in this repo with the following:
 ```
 python code_block.py markdown source
 ```
+
+![image](https://raw.githubusercontent.com/hunterhector/autodoc/main/autodoc.gif)
+
 
 ## Assumptions
  - The source files should have correct extension so that the MIME
