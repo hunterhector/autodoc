@@ -14,7 +14,7 @@ source code.
 ## Requires
  - comment_parser
    - `pip install comment_parser`
- - [markdown-autodoc dockerized](https://github.com/karolswdev/autodocs-markdown-docker))
+ - [markdown-autodoc dockerized](https://github.com/karolswdev/autodocs-markdown-docker)
    - `docker pull karolswdev/autodocs-markdown-docker:latest`
 
 ## Usage 
