@@ -1,0 +1,10 @@
+# SOURCE_MARKER_BEGIN_ymllines
+key: #comment 1
+- value line 1
+#comment 2
+- value line 2
+# SOURCE_MARKER_END_ymllines
+#comment 3
+- value line 3
+
+
