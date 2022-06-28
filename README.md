@@ -11,12 +11,13 @@ Essentially, in additional to the `lines` option, we add the `label` option to i
 blocks between `SOURCE_MARKER_BEGIN_{label}` and `SOURCE_MARKER_END_{label}` from the
 source code.
 
-Requires:
+## Requires
  - comment_parser
    - `pip install comment_parser`
  - [markdown-autodoc dockerized](https://github.com/karolswdev/autodocs-markdown-docker))
    - `docker pull karolswdev/autodocs-markdown-docker:latest`
-Usage: 
+
+## Usage 
 
 ```
 python code_block.py [markdown input] [markdown out] [source code]
@@ -30,8 +31,7 @@ Try the example markdown files in this repo with the following:
 python code_block.py markdown source
 ```
 
-
-Assumptions:
+## Assumptions
  - The source files should have correct extension so that the MIME
     types can be determined.
  - Have https://github.com/karolswdev/autodocs-markdown-docker docker
