@@ -41,7 +41,7 @@ python code_block.py markdown source
  - Have https://github.com/karolswdev/autodocs-markdown-docker docker
     ready.
  - Output directory will be produced in the same level/structure of the
-    input (i.e. from ./input/ to ./output/, not ./input/ to ./some/output/)
+    input (i.e. from ./markdown/ to ./markdown_out/, not ./markdown/ to ./some/path/markdown_out/)
  - Rely on certain string pattern to do the replacement (such as `&`).
  - Comment tags should be simple ascii names (no special characters, spaces, underscores).
  - Comment tags cannot be nested.
