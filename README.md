@@ -20,7 +20,7 @@ source code.
 ## Usage 
 
 ```
-python code_block.py [markdown input] [markdown out] [source code]
+python code_block.py [markdown input] [source code]
 ```
 
 The output directory will be the directory with "_out" appending to 
